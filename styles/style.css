@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.body {
+  background-color: #cccccc;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+.header {
+  margin: 0 auto;
+  background-color: #cccccc;
+  background-image: url("../images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 260px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+.main-card {
+  margin: 20px auto 0px;
+}
+
+.forecast {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.forecast .row {
+  margin: 0 9%;
+}
+
+#city-search-lbl,
+#city-search,
+#city-search-btn {
+  font-size: larger;
+}
